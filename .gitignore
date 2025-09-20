@@ -1,12 +1,5 @@
-﻿# Ignore terraform state files
+﻿.terraform/
 *.tfstate
 *.tfstate.*
-
-# Ignore crash logs
-crash.log
-
-# Ignore Terraform lock file
 .terraform.lock.hcl
-
-# Ignore .terraform folder
-.terraform/
+crash.log
